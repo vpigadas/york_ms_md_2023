@@ -19,7 +19,7 @@ public class HomeActivity extends AppCompatActivity {
 
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-\
+
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,7 +44,6 @@ public class HomeActivity extends AppCompatActivity {
         String name = intent.getStringExtra("name");
 
         Bundle parameters = intent.getExtras();
-        parameters.getStr
         int age = intent.getIntExtra("age", -1);
 
         if (name == null) {
