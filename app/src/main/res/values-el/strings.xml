@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="login_page">Είσοδος</string>
+	<string name="username_hint">ονομα χρήστη</string>
+	<string name="password_hint">κωδικός</string>
+	<string name="remember_me">Remember me</string>
+	<string name="btn_login">Είσοδος</string>
+	<string name="forgot_pass">Ξεχασες τον κωδικό σου</string>
+</resources>

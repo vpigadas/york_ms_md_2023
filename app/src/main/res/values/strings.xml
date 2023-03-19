@@ -1,0 +1,9 @@
+<resources>
+	<string name="app_name" translatable="false">My Application</string>
+	<string name="forgot_pass">Forgot Password</string>
+	<string name="login_page">Login Page</string>
+	<string name="username_hint">username...</string>
+	<string name="password_hint">password</string>
+	<string name="remember_me">Remember me</string>
+	<string name="btn_login">Login</string>
+</resources>
