@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ShareCompat;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.york.myapplication.network.NetworkActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,7 +55,9 @@ public class MainActivity extends AppCompatActivity {
 //                intent.setData(Uri.parse("tel:+306936249616"));
 //                startActivity(intent);
 
-                composeEmail(new String[]{"a@a.com"}, "");
+                Intent intent = new Intent(MainActivity.this, NetworkActivity.class);
+                startActivity(intent);
+                //composeEmail(new String[]{"a@a.com"}, "");
             }
         });
 
