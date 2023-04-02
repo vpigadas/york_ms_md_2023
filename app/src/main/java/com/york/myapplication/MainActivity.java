@@ -14,6 +14,7 @@ import androidx.core.app.ShareCompat;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.york.myapplication.network.NetworkActivity;
+import com.york.myapplication.recycler.RcyclerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -58,6 +59,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, NetworkActivity.class);
                 startActivity(intent);
                 //composeEmail(new String[]{"a@a.com"}, "");
+            }
+        });
+
+        Button btnRecycler = findViewById(R.id.btn_recycler);
+        btnRecycler.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RcyclerActivity.class);
+                startActivity(intent);
             }
         });
 
